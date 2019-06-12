@@ -1,0 +1,208 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:2:1-34:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\bce0d74c8ca882ef0c67425c6d47c6f1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\196a5e7af092047d19af7fb2f74ebec2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\fb557fdcc63a03773b25150424b8f8bd\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\b9623b9960c73078c675b32c9fdc2217\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\58b525037e5737802461b8319ad03eea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\6e787940932e7f98ec60b3936624f68a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\dfc6e64dbb0565618c6c054a816ad6f1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\faceb98528483a31f8bd6707b0772305\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\9b928e49d242f61d63957f8705ee2423\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\03dbbdd870150ed885e667aa986067f2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\bdfa4e552c9fc0f7248799b395bf2f4d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\87666eae64e8d2aa382a92d71d211696\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\39cc133abf34f61d7ab81400e2376081\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\14a5a5cf1fe25c566db1d41eba62d376\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\dfffc5146d414209c528c78aea340663\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\b22e59d8174a92d040a856a5ce6e2f68\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\d91a9df268542eb00c73f76a2b6b1f16\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\e15f2f80763648125d510d9b7f0ba930\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\686246c5072350cb8577261d8fbb8abb\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\bb185ef6ad3457779599d163f871941d\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\7d374ba10c4f3877a41212300039a3e2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\ff254032c8155fe676262f09588b0596\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\9836649c65791db5a92e38bd8845623b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\0f8b266de22f6816e0cc0c325cbc708e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\d5c7214c40dfbd1a424f70c51003283d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\e2c20aa8df93e56893da2a0364afe96d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\0a3a6ed9d9cdf72a6c8b696e4294b547\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\33678166bf51f3dc102e8ba71d53e4a4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\a17c197a4a5716ea753b940bc180752f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\30e118fc82abf29c01d7dd9fba81df7c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\886d2735c64ee501627247d2ab212459\AndroidManifest.xml:17:1-22:12
+INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml
+		INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:2:1-34:12
+		INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:2:1-34:12
+		INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:7:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:9:22-63
+application
+ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:11:5-32:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\bce0d74c8ca882ef0c67425c6d47c6f1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\bce0d74c8ca882ef0c67425c6d47c6f1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\fb557fdcc63a03773b25150424b8f8bd\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\fb557fdcc63a03773b25150424b8f8bd\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\686246c5072350cb8577261d8fbb8abb\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\686246c5072350cb8577261d8fbb8abb\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\bb185ef6ad3457779599d163f871941d\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\bb185ef6ad3457779599d163f871941d\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\686246c5072350cb8577261d8fbb8abb\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:14:9-41
+	android:launchMode
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:15:9-39
+	android:roundIcon
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:16:9-54
+	android:icon
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:18:9-40
+activity#com.example.currentsensor_IoT.MainActivity
+ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:19:9-24:20
+	android:name
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:19:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:20:13-23:29
+action#android.intent.action.MAIN
+ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.example.currentsensor_IoT.OptionActivity
+ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:25:9-30:20
+	android:name
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:25:19-49
+intent-filter#action:name:com.eugene.SHOW_OPT_ACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:26:13-29:29
+action#com.eugene.SHOW_OPT_ACTIVITY
+ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:27:17-71
+	android:name
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:27:25-68
+category#android.intent.category.DEFAULT
+ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:28:17-76
+	android:name
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:28:27-73
+service#org.eclipse.paho.android.service.MqttService
+ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:31:9-80
+	android:name
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml:31:18-77
+uses-sdk
+INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml
+INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\bce0d74c8ca882ef0c67425c6d47c6f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\bce0d74c8ca882ef0c67425c6d47c6f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\196a5e7af092047d19af7fb2f74ebec2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\196a5e7af092047d19af7fb2f74ebec2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\fb557fdcc63a03773b25150424b8f8bd\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\fb557fdcc63a03773b25150424b8f8bd\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\b9623b9960c73078c675b32c9fdc2217\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\b9623b9960c73078c675b32c9fdc2217\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\58b525037e5737802461b8319ad03eea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\58b525037e5737802461b8319ad03eea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\6e787940932e7f98ec60b3936624f68a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\6e787940932e7f98ec60b3936624f68a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\dfc6e64dbb0565618c6c054a816ad6f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\dfc6e64dbb0565618c6c054a816ad6f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\faceb98528483a31f8bd6707b0772305\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\faceb98528483a31f8bd6707b0772305\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\9b928e49d242f61d63957f8705ee2423\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\9b928e49d242f61d63957f8705ee2423\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\03dbbdd870150ed885e667aa986067f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\03dbbdd870150ed885e667aa986067f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\bdfa4e552c9fc0f7248799b395bf2f4d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\bdfa4e552c9fc0f7248799b395bf2f4d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\87666eae64e8d2aa382a92d71d211696\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\87666eae64e8d2aa382a92d71d211696\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\39cc133abf34f61d7ab81400e2376081\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\39cc133abf34f61d7ab81400e2376081\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\14a5a5cf1fe25c566db1d41eba62d376\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\14a5a5cf1fe25c566db1d41eba62d376\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\dfffc5146d414209c528c78aea340663\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\dfffc5146d414209c528c78aea340663\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\b22e59d8174a92d040a856a5ce6e2f68\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\b22e59d8174a92d040a856a5ce6e2f68\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\d91a9df268542eb00c73f76a2b6b1f16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\d91a9df268542eb00c73f76a2b6b1f16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\e15f2f80763648125d510d9b7f0ba930\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\e15f2f80763648125d510d9b7f0ba930\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\686246c5072350cb8577261d8fbb8abb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\686246c5072350cb8577261d8fbb8abb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\bb185ef6ad3457779599d163f871941d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\bb185ef6ad3457779599d163f871941d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\7d374ba10c4f3877a41212300039a3e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\7d374ba10c4f3877a41212300039a3e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\ff254032c8155fe676262f09588b0596\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\ff254032c8155fe676262f09588b0596\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\9836649c65791db5a92e38bd8845623b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\9836649c65791db5a92e38bd8845623b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\0f8b266de22f6816e0cc0c325cbc708e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\0f8b266de22f6816e0cc0c325cbc708e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\d5c7214c40dfbd1a424f70c51003283d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\d5c7214c40dfbd1a424f70c51003283d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\e2c20aa8df93e56893da2a0364afe96d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\e2c20aa8df93e56893da2a0364afe96d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\0a3a6ed9d9cdf72a6c8b696e4294b547\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\0a3a6ed9d9cdf72a6c8b696e4294b547\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\33678166bf51f3dc102e8ba71d53e4a4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\33678166bf51f3dc102e8ba71d53e4a4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\a17c197a4a5716ea753b940bc180752f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\a17c197a4a5716ea753b940bc180752f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\30e118fc82abf29c01d7dd9fba81df7c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\30e118fc82abf29c01d7dd9fba81df7c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\886d2735c64ee501627247d2ab212459\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\vipga_000\.gradle\caches\transforms-2\files-2.1\886d2735c64ee501627247d2ab212459\AndroidManifest.xml:20:5-44
+INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml
+INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml
+		INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml
+		ADDED from G:\CurrentSensor\app\src\main\AndroidManifest.xml
+		INJECTED from G:\CurrentSensor\app\src\main\AndroidManifest.xml
