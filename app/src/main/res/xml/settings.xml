@@ -4,4 +4,14 @@
         android:key="maxmid"
         android:summary="Введите рабочее значение датчика"
         android:title="Рабочее значение датчика" />
+    <EditTextPreference
+        android:key="min_l"
+        android:summary="Введите время отключение света"
+        android:title="Начало ночного режима"
+        android:dialogTitle="Введите значение вида ЧЧ:ММ"/>
+    <EditTextPreference
+        android:key="max_h"
+        android:summary="Введите время включения света"
+        android:title="Конец ночного режима"
+        android:dialogTitle="Введите значение вида ЧЧ:ММ"/>
 </PreferenceScreen>

@@ -19,7 +19,7 @@ public class MQTTHelper {
     public MqttAndroidClient mqttAndroidClient;
 
     final String serverUri = "tcp://postman.cloudmqtt.com:15388";
-
+    //final String serverUri = "tcp://10.11.162.100:1883";
     final String clientId = "Getting";
     final String subscriptionTopic = "devices/lora/807B859020000228/adc";
     final String publishTopic = "devices/lora/807B859020000228/adc";
@@ -114,7 +114,7 @@ public class MQTTHelper {
         }
     }
     public void publishMessage(){
-        final String publishMessage = "adc get";
+        final String publishMessage = "get";
         try {
             MqttMessage message = new MqttMessage();
             message.setPayload(publishMessage.getBytes());

@@ -21,7 +21,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import java.text.SimpleDateFormat;
+import java.text.DateFormat;
 import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -53,7 +57,12 @@ public class MainActivity extends AppCompatActivity {
     int n = 1;
     private NotificationManager notificationManager;
     public static final String ACTION ="com.eugene.SHOW_OPT_ACTIVITY";
-    String maxmid;
+    String maxmd;
+    SimpleDateFormat mtf = new SimpleDateFormat("HH:mm", Locale.getDefault());
+    String min_lt;
+    String min_ht = "23:59";
+    String max_lt = "00:00";
+    String max_ht;
 
     private static final String CHANNEL_ID = "CHANNEL_ID";
     @Override
@@ -63,6 +72,29 @@ public class MainActivity extends AppCompatActivity {
         timer = new Timer();
         lampList = (ListView) findViewById(R.id.lampList);
         notificationManager = (NotificationManager) getApplicationContext().getSystemService(Context.NOTIFICATION_SERVICE);
+        /*GregorianCalendar calendar1 = new GregorianCalendar(2019, Calendar.JULY , 13);
+        calendar1.set(Calendar.HOUR, 21);
+        calendar1.set(Calendar.MINUTE, 10);
+        Date minr_l =  calendar1.getTime();
+        min_lt = mtf.format(minr_l);
+
+        GregorianCalendar calendar2 = new GregorianCalendar(2019, Calendar.JULY , 13);
+        calendar2.set(Calendar.HOUR, 23);
+        calendar2.set(Calendar.MINUTE, 59);
+        Date minr_h =  calendar2.getTime();
+        min_ht = mtf.format(minr_h);
+
+        GregorianCalendar calendar3 = new GregorianCalendar(2019, Calendar.JULY , 14);
+        calendar3.set(Calendar.HOUR, 0);
+        calendar3.set(Calendar.MINUTE, 0);
+        Date maxr_l =  calendar3.getTime();
+        max_lt = mtf.format(maxr_l);
+
+        GregorianCalendar calendar = new GregorianCalendar(2019, Calendar.JULY , 14);
+        calendar.set(Calendar.HOUR, 8);
+        calendar.set(Calendar.MINUTE, 30);
+        Date maxr_h =  calendar.getTime();
+        max_ht = mtf.format(maxr_h);*/
         setInitialData();
         startMQTT();
     }
@@ -70,7 +102,10 @@ public class MainActivity extends AppCompatActivity {
     public void onResume() {
         super.onResume();
         SharedPreferences prefs= PreferenceManager.getDefaultSharedPreferences(this);
-        maxmid = prefs.getString("login", "2500");
+        maxmd = prefs.getString("maxmid", "2500");
+        min_lt = prefs.getString("min_l", "21:30");
+        max_ht = prefs.getString("max_h", "8:30");
+
     }
 
         private void startMQTT(){
@@ -117,9 +152,11 @@ public class MainActivity extends AppCompatActivity {
         switch(id){
             case R.id.action_reboot:
                 mqttHelper.publishMessage();
+                return true;
             case R.id.action_settings:
                 Intent intent = new Intent(this, OptionActivity.class);
                 startActivity(intent);
+                return true;
 
         }
         return super.onOptionsItemSelected(item);
@@ -128,32 +165,53 @@ public class MainActivity extends AppCompatActivity {
     public String comp(int x, String name){
         final String r = "Работает";
         final  String nr = "Не работает";
-        int max = Integer.parseInt(maxmid);
-        if((x>=max-5)&&(x<=max+5)){
-            return r;}
-        else {
-            Intent notificationIntent = new Intent(this, MainActivity.class);
-            PendingIntent contentIntent = PendingIntent.getActivity(this,
-                    0, notificationIntent,
-                    PendingIntent.FLAG_UPDATE_CURRENT);
-           // notificationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP  | Intent.FLAG_ACTIVITY_SINGLE_TOP);
-
-            long[] vibrate = new long[] { 1000, 1000, 1000, 1000, 1000 };
-            NotificationCompat.Builder builder = new NotificationCompat.Builder(getApplicationContext(), CHANNEL_ID)
-                    .setSmallIcon(R.mipmap.ic_launcher)
-                    .setContentTitle("Уведомление")
-                    .setContentText("Элемент работает неисправно") // Текст уведомления
-                    .setContentIntent(contentIntent)
-                    .setWhen(System.currentTimeMillis())
-                    .setAutoCancel(true) // автоматически закрыть уведомление после нажати
-                    .setVibrate(vibrate);
-
-            createChannelIfNeeded(notificationManager);
-            notificationManager.notify(NOTIFY_ID++, builder.build());
-            final String mess = name + " Вышел из строя ";
-            Toast.makeText(MainActivity.this, mess, Toast.LENGTH_LONG).show();
-            return nr;
+        int max = Integer.parseInt(maxmd);
+        SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm", Locale.getDefault());
+        String data = dateFormat.format(new Date()); // 16:16
+        if (((data.compareTo(min_lt)>=0)&&((data.compareTo(min_ht)<=0)))||(((data.compareTo(max_lt)>=0)&&((data.compareTo(max_ht)<=0)))))
+        {
+            if((x<max-10)||(x>max+10)){
+                return nr;}
+            else {
+                push("Элемент не выключен");
+                final String mess = name + " Не выключен ";
+                Toast.makeText(MainActivity.this, mess, Toast.LENGTH_LONG).show();
+                return r;
+            }
         }
+        else {
+            if((x>=max-10)&&(x<=max+10)){
+                return r;}
+            else {
+                push("Элемент работает неисправно");
+                final String mess = name + " Вышел из строя ";
+                Toast.makeText(MainActivity.this, mess, Toast.LENGTH_LONG).show();
+                return nr;
+            }
+        }
+
+    }
+
+    private void push(String s)
+    {
+        Intent notificationIntent = new Intent(this, MainActivity.class);
+        PendingIntent contentIntent = PendingIntent.getActivity(this,
+                0, notificationIntent,
+                PendingIntent.FLAG_UPDATE_CURRENT);
+        // notificationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP  | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+
+        long[] vibrate = new long[] { 1000, 1000, 1000, 1000, 1000 };
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(getApplicationContext(), CHANNEL_ID)
+                .setSmallIcon(R.mipmap.ic_launcher)
+                .setContentTitle("Уведомление")
+                .setContentText(s) // Текст уведомления
+                .setContentIntent(contentIntent)
+                .setWhen(System.currentTimeMillis())
+                .setAutoCancel(true) // автоматически закрыть уведомление после нажати
+                .setVibrate(vibrate);
+
+        createChannelIfNeeded(notificationManager);
+        notificationManager.notify(NOTIFY_ID, builder.build());
     }
 
     public static void createChannelIfNeeded(NotificationManager manager) {
