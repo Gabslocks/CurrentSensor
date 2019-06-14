@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences prefs= PreferenceManager.getDefaultSharedPreferences(this);
         maxmd = prefs.getString("maxmid", "2500");
         min_lt = prefs.getString("min_l", "21:30");
-        max_ht = prefs.getString("max_h", "8:30");
+        max_ht = prefs.getString("max_h", "08:30");
 
     }
 
